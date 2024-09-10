@@ -3,6 +3,12 @@ better logger for python
 
 ### Performance of existing packages
 
+```shell
+Setup:
+Computer - Apple Macbook air M1
+Operating system - iOS Sonama 14.6.1
+Python version - 3.12.6
+```
 
 #### 1000 iterations
 | Package| time taken|
