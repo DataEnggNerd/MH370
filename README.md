@@ -27,10 +27,16 @@ Python version - 3.12.6
 | logging| 21.14s|
 |loguru|154.53s|
 |structlog | 62.62s |
-|lo3 | 28.59s|
+|lo3 v0.2 | 28.59s|
 |lo3 v0.3 | 3.98s|
 
-Without a doubt every logger has it's own set of overhead in the code performance. ~~Let's see whether I can improve this.~~ `RustLogger` gave a whopping ~80% performance improvement.
+#### 250,000 iterations
+| Package| time taken|
+|---|---|
+| logging | 522.20 |
+| lo3 v3 | 101.39|
+
+Without a doubt every logger has it's own set of overhead in the code performance. ~~Let's see whether I can improve this.~~ `RustLogger` gave a whopping ~80% performance improvement in both high and low volume testing.
 
 ---
 ### Lo3 v0.3.0
@@ -39,7 +45,7 @@ Optimized rust code a bit to reduce redundant unwanted operations,
 - Instead of opening file for every entry, now it is being done for once, at instantiation of the Logger
 - Replaced `+=` with `push_str` to append the logs
 - `BufWriter` to reduce number of system calls
-- built the tool with `maturin develop --release`
+- built the package with `maturin develop --release`
   
 #### Primliminary scope (No change)
 - Adds log to file
