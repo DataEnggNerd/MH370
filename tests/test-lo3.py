@@ -4,6 +4,7 @@ logger = RustLogger("rust_test.log")
 
 def logger_test_function():
     for i in range(100):
+        # testing with multiple parameters
         # logger.info("Info level log", {"test":"test_1", "test_2":"test_2", "test_3":"test_3", "test_4":"test_4"})
         # logger.error("Error level log", {"test":"test_1", "test_2":"test_2", "test_3":"test_3", "test_4":"test_4"})
         # logger.warning("Warn level log", {"test":"test_1", "test_2":"test_2", "test_3":"test_3", "test_4":"test_4"})

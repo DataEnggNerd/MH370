@@ -1,6 +1,11 @@
 [package]
 name = "lo3"
-version = "0.3.0"
+version = "0.3.0-alpha"
+author = "Santhosh Solomon <solomon.santhosh@gmail.com>"
+description = "Faster logger than python native logging package. "
+readme = "README.md"
+repository = "https://github.com/DataEnggNerd/MH370"
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
