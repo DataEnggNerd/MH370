@@ -1,6 +1,6 @@
 [package]
 name = "lo3"
-version = "0.3.0-alpha"
+version = "0.3.1-alpha"
 author = "Santhosh Solomon <solomon.santhosh@gmail.com>"
 description = "Faster logger than python native logging package. "
 readme = "README.md"
