@@ -58,7 +58,7 @@ In our benchmarks, Lo3 showed significant performance improvements over Python's
 - Lo3: ~101.39 seconds
 - Python's logging module: ~522.20 seconds
 
-This represents an 80x speedup in this high-volume logging scenario.
+This represents an ~5x(~80%) speedup in this high-volume logging scenario.
 
 ## Benchmarking
 
@@ -83,5 +83,4 @@ As this is an alpha version, we welcome contributions, especially for the featur
 
 ## Acknowledgments
 
-- Huge shoutout to [Michael Kefeder](https://github.com/mike-kfed) for his [Bedroom builds rust](https://github.com/bedroombuilds/python2rust) series in youtube, through which I started learning Rust, via Python. 
-
+- Huge shoutout to [Michael Kefeder](https://github.com/mike-kfed) for his [Bedroom builds rust](https://github.com/bedroombuilds/python2rust) series in youtube, through which I started learning Rust, via Python.
